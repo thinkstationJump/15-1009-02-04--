@@ -15,6 +15,20 @@
 		70288BA91BC79A9A007FB970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70288BA71BC79A9A007FB970 /* LaunchScreen.storyboard */; };
 		70288BB41BC79A9A007FB970 /* _4_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70288BB31BC79A9A007FB970 /* _4_______Tests.m */; };
 		70288BBF1BC79A9A007FB970 /* _4_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70288BBE1BC79A9A007FB970 /* _4_______UITests.m */; };
+		70288BD31BC79AC2007FB970 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70288BD21BC79AC2007FB970 /* NotificationCenter.framework */; settings = {ASSET_TAGS = (); }; };
+		70288BD71BC79AC2007FB970 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70288BD61BC79AC2007FB970 /* TodayViewController.m */; };
+		70288BDA1BC79AC2007FB970 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70288BD81BC79AC2007FB970 /* MainInterface.storyboard */; };
+		70288BDE1BC79AC2007FB970 /* todayE-test.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 70288BD01BC79AC2007FB970 /* todayE-test.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70288BEB1BC79D89007FB970 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70288BEA1BC79D89007FB970 /* ShareViewController.m */; };
+		70288BEE1BC79D89007FB970 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70288BEC1BC79D89007FB970 /* MainInterface.storyboard */; };
+		70288BF21BC79D89007FB970 /* test-shareE.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 70288BE71BC79D89007FB970 /* test-shareE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70288BFC1BC7A100007FB970 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70288BFB1BC7A100007FB970 /* PhotosUI.framework */; settings = {ASSET_TAGS = (); }; };
+		70288BFE1BC7A100007FB970 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70288BFD1BC7A100007FB970 /* Photos.framework */; settings = {ASSET_TAGS = (); }; };
+		70288C021BC7A100007FB970 /* PhotoEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70288C011BC7A100007FB970 /* PhotoEditingViewController.m */; };
+		70288C051BC7A100007FB970 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70288C031BC7A100007FB970 /* MainInterface.storyboard */; };
+		70288C091BC7A100007FB970 /* test-PhotoEditingExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 70288BFA1BC7A100007FB970 /* test-PhotoEditingExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70288C151BC7A781007FB970 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70288C141BC7A781007FB970 /* KeyboardViewController.m */; };
+		70288C191BC7A781007FB970 /* test-自定义键盘-Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 70288C111BC7A781007FB970 /* test-自定义键盘-Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +46,52 @@
 			remoteGlobalIDString = 70288B951BC79A9A007FB970;
 			remoteInfo = "04-应用扩展探究";
 		};
+		70288BDC1BC79AC2007FB970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70288B8E1BC79A9A007FB970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70288BCF1BC79AC2007FB970;
+			remoteInfo = "todayE-test";
+		};
+		70288BF01BC79D89007FB970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70288B8E1BC79A9A007FB970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70288BE61BC79D89007FB970;
+			remoteInfo = "test-shareE";
+		};
+		70288C071BC7A100007FB970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70288B8E1BC79A9A007FB970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70288BF91BC7A100007FB970;
+			remoteInfo = "test-PhotoEditingExtension";
+		};
+		70288C171BC7A781007FB970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70288B8E1BC79A9A007FB970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70288C101BC7A781007FB970;
+			remoteInfo = "test-自定义键盘-Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70288BE21BC79AC2007FB970 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				70288C191BC7A781007FB970 /* test-自定义键盘-Extension.appex in Embed App Extensions */,
+				70288BF21BC79D89007FB970 /* test-shareE.appex in Embed App Extensions */,
+				70288C091BC7A100007FB970 /* test-PhotoEditingExtension.appex in Embed App Extensions */,
+				70288BDE1BC79AC2007FB970 /* todayE-test.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		70288B961BC79A9A007FB970 /* 04-应用扩展探究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-应用扩展探究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +110,28 @@
 		70288BBA1BC79A9A007FB970 /* 04-应用扩展探究UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-应用扩展探究UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70288BBE1BC79A9A007FB970 /* _4_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_______UITests.m"; sourceTree = "<group>"; };
 		70288BC01BC79A9A007FB970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70288BD01BC79AC2007FB970 /* todayE-test.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "todayE-test.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70288BD21BC79AC2007FB970 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		70288BD51BC79AC2007FB970 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		70288BD61BC79AC2007FB970 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		70288BD91BC79AC2007FB970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		70288BDB1BC79AC2007FB970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70288BE71BC79D89007FB970 /* test-shareE.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "test-shareE.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70288BE91BC79D89007FB970 /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		70288BEA1BC79D89007FB970 /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		70288BED1BC79D89007FB970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		70288BEF1BC79D89007FB970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70288BFA1BC7A100007FB970 /* test-PhotoEditingExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "test-PhotoEditingExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70288BFB1BC7A100007FB970 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		70288BFD1BC7A100007FB970 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		70288C001BC7A100007FB970 /* PhotoEditingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoEditingViewController.h; sourceTree = "<group>"; };
+		70288C011BC7A100007FB970 /* PhotoEditingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoEditingViewController.m; sourceTree = "<group>"; };
+		70288C041BC7A100007FB970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		70288C061BC7A100007FB970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70288C111BC7A781007FB970 /* test-自定义键盘-Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "test-自定义键盘-Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70288C131BC7A781007FB970 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		70288C141BC7A781007FB970 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		70288C161BC7A781007FB970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +156,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70288BCD1BC79AC2007FB970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70288BD31BC79AC2007FB970 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70288BE41BC79D89007FB970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70288BF71BC7A100007FB970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70288BFC1BC7A100007FB970 /* PhotosUI.framework in Frameworks */,
+				70288BFE1BC7A100007FB970 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70288C0E1BC7A781007FB970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +196,11 @@
 				70288B981BC79A9A007FB970 /* 04-应用扩展探究 */,
 				70288BB21BC79A9A007FB970 /* 04-应用扩展探究Tests */,
 				70288BBD1BC79A9A007FB970 /* 04-应用扩展探究UITests */,
+				70288BD41BC79AC2007FB970 /* todayE-test */,
+				70288BE81BC79D89007FB970 /* test-shareE */,
+				70288BFF1BC7A100007FB970 /* test-PhotoEditingExtension */,
+				70288C121BC7A781007FB970 /* test-自定义键盘-Extension */,
+				70288BD11BC79AC2007FB970 /* Frameworks */,
 				70288B971BC79A9A007FB970 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +211,10 @@
 				70288B961BC79A9A007FB970 /* 04-应用扩展探究.app */,
 				70288BAF1BC79A9A007FB970 /* 04-应用扩展探究Tests.xctest */,
 				70288BBA1BC79A9A007FB970 /* 04-应用扩展探究UITests.xctest */,
+				70288BD01BC79AC2007FB970 /* todayE-test.appex */,
+				70288BE71BC79D89007FB970 /* test-shareE.appex */,
+				70288BFA1BC7A100007FB970 /* test-PhotoEditingExtension.appex */,
+				70288C111BC7A781007FB970 /* test-自定义键盘-Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +261,59 @@
 			path = "04-应用扩展探究UITests";
 			sourceTree = "<group>";
 		};
+		70288BD11BC79AC2007FB970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70288BD21BC79AC2007FB970 /* NotificationCenter.framework */,
+				70288BFB1BC7A100007FB970 /* PhotosUI.framework */,
+				70288BFD1BC7A100007FB970 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70288BD41BC79AC2007FB970 /* todayE-test */ = {
+			isa = PBXGroup;
+			children = (
+				70288BD51BC79AC2007FB970 /* TodayViewController.h */,
+				70288BD61BC79AC2007FB970 /* TodayViewController.m */,
+				70288BD81BC79AC2007FB970 /* MainInterface.storyboard */,
+				70288BDB1BC79AC2007FB970 /* Info.plist */,
+			);
+			path = "todayE-test";
+			sourceTree = "<group>";
+		};
+		70288BE81BC79D89007FB970 /* test-shareE */ = {
+			isa = PBXGroup;
+			children = (
+				70288BE91BC79D89007FB970 /* ShareViewController.h */,
+				70288BEA1BC79D89007FB970 /* ShareViewController.m */,
+				70288BEC1BC79D89007FB970 /* MainInterface.storyboard */,
+				70288BEF1BC79D89007FB970 /* Info.plist */,
+			);
+			path = "test-shareE";
+			sourceTree = "<group>";
+		};
+		70288BFF1BC7A100007FB970 /* test-PhotoEditingExtension */ = {
+			isa = PBXGroup;
+			children = (
+				70288C001BC7A100007FB970 /* PhotoEditingViewController.h */,
+				70288C011BC7A100007FB970 /* PhotoEditingViewController.m */,
+				70288C031BC7A100007FB970 /* MainInterface.storyboard */,
+				70288C061BC7A100007FB970 /* Info.plist */,
+			);
+			path = "test-PhotoEditingExtension";
+			sourceTree = "<group>";
+		};
+		70288C121BC7A781007FB970 /* test-自定义键盘-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70288C131BC7A781007FB970 /* KeyboardViewController.h */,
+				70288C141BC7A781007FB970 /* KeyboardViewController.m */,
+				70288C161BC7A781007FB970 /* Info.plist */,
+			);
+			path = "test-自定义键盘-Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +324,15 @@
 				70288B921BC79A9A007FB970 /* Sources */,
 				70288B931BC79A9A007FB970 /* Frameworks */,
 				70288B941BC79A9A007FB970 /* Resources */,
+				70288BE21BC79AC2007FB970 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				70288BDD1BC79AC2007FB970 /* PBXTargetDependency */,
+				70288BF11BC79D89007FB970 /* PBXTargetDependency */,
+				70288C081BC7A100007FB970 /* PBXTargetDependency */,
+				70288C181BC7A781007FB970 /* PBXTargetDependency */,
 			);
 			name = "04-应用扩展探究";
 			productName = "04-应用扩展探究";
@@ -196,6 +375,74 @@
 			productReference = 70288BBA1BC79A9A007FB970 /* 04-应用扩展探究UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		70288BCF1BC79AC2007FB970 /* todayE-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70288BDF1BC79AC2007FB970 /* Build configuration list for PBXNativeTarget "todayE-test" */;
+			buildPhases = (
+				70288BCC1BC79AC2007FB970 /* Sources */,
+				70288BCD1BC79AC2007FB970 /* Frameworks */,
+				70288BCE1BC79AC2007FB970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "todayE-test";
+			productName = "todayE-test";
+			productReference = 70288BD01BC79AC2007FB970 /* todayE-test.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		70288BE61BC79D89007FB970 /* test-shareE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70288BF31BC79D8A007FB970 /* Build configuration list for PBXNativeTarget "test-shareE" */;
+			buildPhases = (
+				70288BE31BC79D89007FB970 /* Sources */,
+				70288BE41BC79D89007FB970 /* Frameworks */,
+				70288BE51BC79D89007FB970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-shareE";
+			productName = "test-shareE";
+			productReference = 70288BE71BC79D89007FB970 /* test-shareE.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		70288BF91BC7A100007FB970 /* test-PhotoEditingExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70288C0A1BC7A100007FB970 /* Build configuration list for PBXNativeTarget "test-PhotoEditingExtension" */;
+			buildPhases = (
+				70288BF61BC7A100007FB970 /* Sources */,
+				70288BF71BC7A100007FB970 /* Frameworks */,
+				70288BF81BC7A100007FB970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-PhotoEditingExtension";
+			productName = "test-PhotoEditingExtension";
+			productReference = 70288BFA1BC7A100007FB970 /* test-PhotoEditingExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		70288C101BC7A781007FB970 /* test-自定义键盘-Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70288C1A1BC7A781007FB970 /* Build configuration list for PBXNativeTarget "test-自定义键盘-Extension" */;
+			buildPhases = (
+				70288C0D1BC7A781007FB970 /* Sources */,
+				70288C0E1BC7A781007FB970 /* Frameworks */,
+				70288C0F1BC7A781007FB970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-自定义键盘-Extension";
+			productName = "test-自定义键盘-Extension";
+			productReference = 70288C111BC7A781007FB970 /* test-自定义键盘-Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,6 +463,18 @@
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 70288B951BC79A9A007FB970;
 					};
+					70288BCF1BC79AC2007FB970 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					70288BE61BC79D89007FB970 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					70288BF91BC7A100007FB970 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					70288C101BC7A781007FB970 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 70288B911BC79A9A007FB970 /* Build configuration list for PBXProject "04-应用扩展探究" */;
@@ -234,6 +493,10 @@
 				70288B951BC79A9A007FB970 /* 04-应用扩展探究 */,
 				70288BAE1BC79A9A007FB970 /* 04-应用扩展探究Tests */,
 				70288BB91BC79A9A007FB970 /* 04-应用扩展探究UITests */,
+				70288BCF1BC79AC2007FB970 /* todayE-test */,
+				70288BE61BC79D89007FB970 /* test-shareE */,
+				70288BF91BC7A100007FB970 /* test-PhotoEditingExtension */,
+				70288C101BC7A781007FB970 /* test-自定义键盘-Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +520,37 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		70288BB81BC79A9A007FB970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70288BCE1BC79AC2007FB970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70288BDA1BC79AC2007FB970 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70288BE51BC79D89007FB970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70288BEE1BC79D89007FB970 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70288BF81BC7A100007FB970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70288C051BC7A100007FB970 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70288C0F1BC7A781007FB970 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,6 +586,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70288BCC1BC79AC2007FB970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70288BD71BC79AC2007FB970 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70288BE31BC79D89007FB970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70288BEB1BC79D89007FB970 /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70288BF61BC7A100007FB970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70288C021BC7A100007FB970 /* PhotoEditingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70288C0D1BC7A781007FB970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70288C151BC7A781007FB970 /* KeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,6 +630,26 @@
 			isa = PBXTargetDependency;
 			target = 70288B951BC79A9A007FB970 /* 04-应用扩展探究 */;
 			targetProxy = 70288BBB1BC79A9A007FB970 /* PBXContainerItemProxy */;
+		};
+		70288BDD1BC79AC2007FB970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70288BCF1BC79AC2007FB970 /* todayE-test */;
+			targetProxy = 70288BDC1BC79AC2007FB970 /* PBXContainerItemProxy */;
+		};
+		70288BF11BC79D89007FB970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70288BE61BC79D89007FB970 /* test-shareE */;
+			targetProxy = 70288BF01BC79D89007FB970 /* PBXContainerItemProxy */;
+		};
+		70288C081BC7A100007FB970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70288BF91BC7A100007FB970 /* test-PhotoEditingExtension */;
+			targetProxy = 70288C071BC7A100007FB970 /* PBXContainerItemProxy */;
+		};
+		70288C181BC7A781007FB970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70288C101BC7A781007FB970 /* test-自定义键盘-Extension */;
+			targetProxy = 70288C171BC7A781007FB970 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -322,6 +668,30 @@
 				70288BA81BC79A9A007FB970 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		70288BD81BC79AC2007FB970 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70288BD91BC79AC2007FB970 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		70288BEC1BC79D89007FB970 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70288BED1BC79D89007FB970 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		70288C031BC7A100007FB970 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70288C041BC7A100007FB970 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -477,6 +847,94 @@
 			};
 			name = Release;
 		};
+		70288BE01BC79AC2007FB970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "todayE-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4-------.todayE-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70288BE11BC79AC2007FB970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "todayE-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4-------.todayE-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70288BF41BC79D8A007FB970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "test-shareE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4-------.test-shareE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70288BF51BC79D8A007FB970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "test-shareE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4-------.test-shareE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70288C0B1BC7A100007FB970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "test-PhotoEditingExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4-------.test-PhotoEditingExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70288C0C1BC7A100007FB970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "test-PhotoEditingExtension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4-------.test-PhotoEditingExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70288C1B1BC7A781007FB970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "test-自定义键盘-Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4-------.test-------Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70288C1C1BC7A781007FB970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "test-自定义键盘-Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-4-------.test-------Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -510,6 +968,38 @@
 			buildConfigurations = (
 				70288BCA1BC79A9A007FB970 /* Debug */,
 				70288BCB1BC79A9A007FB970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70288BDF1BC79AC2007FB970 /* Build configuration list for PBXNativeTarget "todayE-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70288BE01BC79AC2007FB970 /* Debug */,
+				70288BE11BC79AC2007FB970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70288BF31BC79D8A007FB970 /* Build configuration list for PBXNativeTarget "test-shareE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70288BF41BC79D8A007FB970 /* Debug */,
+				70288BF51BC79D8A007FB970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70288C0A1BC7A100007FB970 /* Build configuration list for PBXNativeTarget "test-PhotoEditingExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70288C0B1BC7A100007FB970 /* Debug */,
+				70288C0C1BC7A100007FB970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70288C1A1BC7A781007FB970 /* Build configuration list for PBXNativeTarget "test-自定义键盘-Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70288C1B1BC7A781007FB970 /* Debug */,
+				70288C1C1BC7A781007FB970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

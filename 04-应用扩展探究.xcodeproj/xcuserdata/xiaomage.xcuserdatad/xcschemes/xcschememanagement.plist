@@ -9,6 +9,26 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>test-PhotoEditingExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>test-shareE.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>test-自定义键盘-Extension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>todayE-test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +43,26 @@
 			<true/>
 		</dict>
 		<key>70288BB91BC79A9A007FB970</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70288BCF1BC79AC2007FB970</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70288BE61BC79D89007FB970</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70288BF91BC7A100007FB970</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70288C101BC7A781007FB970</key>
 		<dict>
 			<key>primary</key>
 			<true/>
